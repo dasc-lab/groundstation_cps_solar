@@ -57,117 +57,137 @@ include CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/progress.mak
 # Include the compile flags for this target's objects.
 include CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_introspection_c/__init__.py
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/SimpleBatteryStatus.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/CommanderSetState.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/CommanderStatus.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/ParameterReq.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/ParameterRes.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/SensorCombined.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/SensorGps.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/TimesyncStatus.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/TrajectorySetpoint.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/VehicleCommand.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/VehicleControlMode.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/VehicleLocalPosition.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/VehicleOdometry.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/VehicleStatus.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_introspection_c/__init__.py
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/BatteryStatus.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/SimpleBatteryStatus.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/CommanderSetState.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/CommanderStatus.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/ParameterReq.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/ParameterRes.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/SensorCombined.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/SensorGps.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/TimesyncStatus.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/TrajectorySetpoint.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/VehicleCommand.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/VehicleControlMode.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/VehicleLocalPosition.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/VehicleOdometry.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/px4_msgs/msg/VehicleStatus.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/galactic/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c__arguments.json
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_c.h
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c
+
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c
 
-rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
+rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c
+
+CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c
+
+CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c > CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.i
+
+CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.s
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c.i: cmake_force
@@ -180,7 +200,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c.i: cmake_force
@@ -193,7 +213,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c.i: cmake_force
@@ -206,7 +226,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_req__type_support.c.i: cmake_force
@@ -219,7 +239,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/parameter_res__type_support.c.i: cmake_force
@@ -232,7 +252,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_combined__type_support.c.i: cmake_force
@@ -245,7 +265,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/sensor_gps__type_support.c.i: cmake_force
@@ -258,7 +278,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/timesync_status__type_support.c.i: cmake_force
@@ -271,7 +291,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/trajectory_setpoint__type_support.c.i: cmake_force
@@ -284,7 +304,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_command__type_support.c.i: cmake_force
@@ -297,7 +317,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_control_mode__type_support.c.i: cmake_force
@@ -310,7 +330,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__type_support.c.i: cmake_force
@@ -323,7 +343,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__type_support.c.i: cmake_force
@@ -336,7 +356,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c.o: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c.o: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c.o   -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c
 
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__type_support.c.i: cmake_force
@@ -349,6 +369,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_i
 
 # Object files for target px4_msgs__rosidl_typesupport_introspection_c
 px4_msgs__rosidl_typesupport_introspection_c_OBJECTS = \
+"CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c.o" \
@@ -367,6 +388,7 @@ px4_msgs__rosidl_typesupport_introspection_c_OBJECTS = \
 # External object files for target px4_msgs__rosidl_typesupport_introspection_c
 px4_msgs__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
+libpx4_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c.o
 libpx4_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c.o
 libpx4_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c.o
 libpx4_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c.o
@@ -396,7 +418,7 @@ libpx4_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/galactic/lib/librcp
 libpx4_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/galactic/lib/librosidl_runtime_c.so
 libpx4_msgs__rosidl_typesupport_introspection_c.so: /opt/ros/galactic/lib/librcutils.so
 libpx4_msgs__rosidl_typesupport_introspection_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C shared library libpx4_msgs__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C shared library libpx4_msgs__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -408,6 +430,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/clean
 
+CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__rosidl_typesupport_introspection_c.h
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_introspection_c.h
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__rosidl_typesupport_introspection_c.h
@@ -422,6 +445,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_types
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_local_position__rosidl_typesupport_introspection_c.h
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_odometry__rosidl_typesupport_introspection_c.h
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/vehicle_status__rosidl_typesupport_introspection_c.h
+CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/battery_status__type_support.c
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/simple_battery_status__type_support.c
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_set_state__type_support.c
 CMakeFiles/px4_msgs__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/px4_msgs/msg/detail/commander_status__type_support.c

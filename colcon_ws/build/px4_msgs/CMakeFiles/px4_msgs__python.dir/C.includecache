@@ -26,6 +26,24 @@ rosidl_runtime_c/visibility_control.h
 
 /opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
 
+/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_battery_status_s.c
+Python.h
+-
+stdbool.h
+-
+numpy/ndarrayobject.h
+/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/numpy/ndarrayobject.h
+rosidl_runtime_c/visibility_control.h
+/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/rosidl_runtime_c/visibility_control.h
+px4_msgs/msg/detail/battery_status__struct.h
+/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/px4_msgs/msg/detail/battery_status__struct.h
+px4_msgs/msg/detail/battery_status__functions.h
+/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/px4_msgs/msg/detail/battery_status__functions.h
+rosidl_runtime_c/primitives_sequence.h
+/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/rosidl_runtime_c/primitives_sequence.h
+rosidl_runtime_c/primitives_sequence_functions.h
+/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/rosidl_runtime_c/primitives_sequence_functions.h
+
 /root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_commander_set_state_s.c
 Python.h
 -
@@ -817,6 +835,26 @@ cpython/unicodeobject.h
 /usr/include/python3.8/warnings.h
 
 /usr/include/python3.8/weakrefobject.h
+
+rosidl_generator_c/px4_msgs/msg/detail/battery_status__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/px4_msgs/msg/detail/rosidl_runtime_c/visibility_control.h
+px4_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/px4_msgs/msg/detail/px4_msgs/msg/rosidl_generator_c__visibility_control.h
+px4_msgs/msg/detail/battery_status__struct.h
+rosidl_generator_c/px4_msgs/msg/detail/px4_msgs/msg/detail/battery_status__struct.h
+
+rosidl_generator_c/px4_msgs/msg/detail/battery_status__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 
 rosidl_generator_c/px4_msgs/msg/detail/commander_set_state__functions.h
 stdbool.h

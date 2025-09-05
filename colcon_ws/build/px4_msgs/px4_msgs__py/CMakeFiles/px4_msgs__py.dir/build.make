@@ -56,6 +56,7 @@ include px4_msgs__py/CMakeFiles/px4_msgs__py.dir/progress.make
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_introspection_c.c
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_c.c
+px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_battery_status.py
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_simple_battery_status.py
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_commander_set_state.py
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_commander_status.py
@@ -71,6 +72,7 @@ px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_vehicle_
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_vehicle_odometry.py
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_vehicle_status.py
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/__init__.py
+px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_battery_status_s.c
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_simple_battery_status_s.c
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_commander_set_state_s.c
 px4_msgs__py/CMakeFiles/px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_commander_status_s.c
@@ -100,6 +102,7 @@ rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /op
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/BatteryStatus.idl
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/SimpleBatteryStatus.idl
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/CommanderSetState.idl
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/px4_msgs/msg/CommanderStatus.idl
@@ -124,6 +127,9 @@ rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_introspection_c.c
 
 rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_c.c
+
+rosidl_generator_py/px4_msgs/msg/_battery_status.py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/_battery_status.py
 
 rosidl_generator_py/px4_msgs/msg/_simple_battery_status.py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/_simple_battery_status.py
@@ -169,6 +175,9 @@ rosidl_generator_py/px4_msgs/msg/_vehicle_status.py: rosidl_generator_py/px4_msg
 
 rosidl_generator_py/px4_msgs/msg/__init__.py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/__init__.py
+
+rosidl_generator_py/px4_msgs/msg/_battery_status_s.c: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/_battery_status_s.c
 
 rosidl_generator_py/px4_msgs/msg/_simple_battery_status_s.c: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/px4_msgs/msg/_simple_battery_status_s.c
@@ -216,6 +225,7 @@ px4_msgs__py: px4_msgs__py/CMakeFiles/px4_msgs__py
 px4_msgs__py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 px4_msgs__py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_introspection_c.c
 px4_msgs__py: rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_c.c
+px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_battery_status.py
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_simple_battery_status.py
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_commander_set_state.py
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_commander_status.py
@@ -231,6 +241,7 @@ px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_vehicle_local_position.py
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_vehicle_odometry.py
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_vehicle_status.py
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/__init__.py
+px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_battery_status_s.c
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_simple_battery_status_s.c
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_commander_set_state_s.c
 px4_msgs__py: rosidl_generator_py/px4_msgs/msg/_commander_status_s.c

@@ -1,1 +1,29 @@
-/root/colcon_ws/build/dasc_msgs/rosidl_adapter/dasc_msgs/msg/DITrajectory.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dasc_msgs/msg/DITrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Accel.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Header.idl"
+
+module dasc_msgs {
+  module msg {
+    struct DITrajectory {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " from the start time in the header, construct a trajectory" "\n"
+        " timestep between these messages, in seconds")
+      double dt;
+
+      @verbatim (language="comment", text=
+        " each contains both linear and angular components")
+      sequence<geometry_msgs::msg::Pose> poses;
+
+      sequence<geometry_msgs::msg::Twist> twists;
+
+      sequence<geometry_msgs::msg::Accel> accelerations;
+    };
+  };
+};

@@ -80,7 +80,7 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 14,
+	"PARALLEL" : 8,
 	"PARSE_CACHE_FILE" : "/root/colcon_ws/build/dasc_robot_gui/CMakeFiles/dasc_robot_gui_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",

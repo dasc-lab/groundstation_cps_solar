@@ -1,6 +1,7 @@
 {
   "package_name": "px4_msgs",
   "non_idl_tuples": [
+    "/root/colcon_ws/src/px4_msgs:msg/BatteryStatus.msg",
     "/root/colcon_ws/src/px4_msgs:msg/SimpleBatteryStatus.msg",
     "/root/colcon_ws/src/px4_msgs:msg/CommanderSetState.msg",
     "/root/colcon_ws/src/px4_msgs:msg/CommanderStatus.msg",

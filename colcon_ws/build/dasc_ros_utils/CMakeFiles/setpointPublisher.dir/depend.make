@@ -431,7 +431,11 @@ CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/i
 CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__builder.hpp
 CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp
 CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp
+CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__builder.hpp
+CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__struct.hpp
+CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__traits.hpp
 CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/trajectory_setpoint.hpp
+CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_local_position.hpp
 CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/src/dasc_ros_common/dasc_ros_utils/include/dasc_ros_utils/conversions.hpp
 CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/src/dasc_ros_common/dasc_ros_utils/include/dasc_ros_utils/setpoint_publisher.hpp
 CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o: /root/colcon_ws/src/dasc_ros_common/dasc_ros_utils/include/dasc_ros_utils/tf2_geometry_msgs.hpp

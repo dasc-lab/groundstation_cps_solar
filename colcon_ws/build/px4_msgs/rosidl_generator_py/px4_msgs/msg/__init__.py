@@ -1,3 +1,4 @@
+from px4_msgs.msg._battery_status import BatteryStatus  # noqa: F401
 from px4_msgs.msg._commander_set_state import CommanderSetState  # noqa: F401
 from px4_msgs.msg._commander_status import CommanderStatus  # noqa: F401
 from px4_msgs.msg._parameter_req import ParameterReq  # noqa: F401

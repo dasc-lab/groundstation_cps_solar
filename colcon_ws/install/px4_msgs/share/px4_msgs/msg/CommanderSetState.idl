@@ -1,1 +1,20 @@
-/root/colcon_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/CommanderSetState.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_msgs/msg/CommanderSetState.msg
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module msg {
+    module CommanderSetState_Constants {
+      const uint8 STATE_DISARMED = 0;
+      const uint8 STATE_ARMED = 1;
+      const uint8 STATE_OFFBOARD = 2;
+      const uint8 STATE_LAND = 3;
+    };
+    struct CommanderSetState {
+      uint64 timestamp;
+
+      uint8 new_state;
+    };
+  };
+};

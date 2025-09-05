@@ -1,1 +1,1 @@
-/root/colcon_ws/build/dasc_ros_utils/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dasc_ros_utils
+rclcpp;rclpy;px4_msgs;dasc_msgs;ament_lint_auto;ament_lint_common

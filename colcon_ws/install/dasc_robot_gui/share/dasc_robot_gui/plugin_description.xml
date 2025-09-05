@@ -1,1 +1,23 @@
-/root/colcon_ws/src/dasc_robot_gui/plugin_description.xml
+<library path="dasc_robot_gui">
+  <class name="dasc_robot_gui/Teleop"
+         type="dasc_robot_gui::TeleopPanel"
+         base_class_type="rviz_common::Panel">
+    <description>
+      A panel widget allowing simple diff-drive style robot base control.
+    </description>
+  </class>
+  <class name="dasc_robot_gui/Eware"
+         type="dasc_robot_gui::EwarePanel"
+         base_class_type="rviz_common::Panel">
+    <description>
+	    A panel to handle flights for eware (energ-aware filter) by Eclares.
+    </description>
+  </class>
+  <class name="dasc_robot_gui/meSch"
+         type="dasc_robot_gui::meSchPanel"
+         base_class_type="rviz_common::Panel">
+    <description>
+	    A panel to handle flights for meSch (muti-agent energy-aware scheduling) for persistent tasks. At present, three quadrotors are deployed. 
+    </description>
+  </class>
+</library>

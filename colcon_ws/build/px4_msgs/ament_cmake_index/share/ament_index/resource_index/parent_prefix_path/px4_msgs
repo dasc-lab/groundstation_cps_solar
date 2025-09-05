@@ -1,1 +1,1 @@
-/root/colcon_ws/install/dasc_ros_utils:/root/colcon_ws/install/dasc_robot_gui:/root/colcon_ws/install/px4_msgs:/root/colcon_ws/install/ground_station_launch:/root/colcon_ws/install/dasc_msgs:/opt/ros/galactic
+/root/colcon_ws/install/dasc_ros_utils:/root/colcon_ws/install/dasc_robot_gui:/root/colcon_ws/install/px4_msgs:/root/colcon_ws/install/meSch_base:/root/colcon_ws/install/ground_station_launch:/root/colcon_ws/install/dasc_msgs:/root/colcon_ws/install/all_launch:/opt/ros/galactic

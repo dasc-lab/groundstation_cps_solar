@@ -167,10 +167,6 @@ dasc_msgs/msg/detail/base_to_quad_mesch__struct.h
 /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/dasc_msgs/msg/detail/base_to_quad_mesch__struct.h
 dasc_msgs/msg/detail/base_to_quad_mesch__functions.h
 /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/dasc_msgs/msg/detail/base_to_quad_mesch__functions.h
-rosidl_runtime_c/primitives_sequence.h
-/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/rosidl_runtime_c/primitives_sequence.h
-rosidl_runtime_c/primitives_sequence_functions.h
-/root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/rosidl_runtime_c/primitives_sequence_functions.h
 
 /root/colcon_ws/build/dasc_msgs/rosidl_generator_py/dasc_msgs/msg/_cand_to_sp_s.c
 Python.h

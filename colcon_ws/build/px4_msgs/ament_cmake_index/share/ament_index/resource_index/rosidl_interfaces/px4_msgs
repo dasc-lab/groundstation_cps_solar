@@ -1,3 +1,5 @@
+msg/BatteryStatus.idl
+msg/BatteryStatus.msg
 msg/CommanderSetState.idl
 msg/CommanderSetState.msg
 msg/CommanderStatus.idl

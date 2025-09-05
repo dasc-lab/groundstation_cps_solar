@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/px4_msgs__python.dir/rosidl_generator_py/px4_msgs/msg/_battery_status_s.c.o"
   "CMakeFiles/px4_msgs__python.dir/rosidl_generator_py/px4_msgs/msg/_commander_set_state_s.c.o"
   "CMakeFiles/px4_msgs__python.dir/rosidl_generator_py/px4_msgs/msg/_commander_status_s.c.o"
   "CMakeFiles/px4_msgs__python.dir/rosidl_generator_py/px4_msgs/msg/_parameter_req_s.c.o"

@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /root/colcon_ws/build/px4_msgs
 # Include the progress variables for this target.
 include CMakeFiles/px4_msgs.dir/progress.make
 
+CMakeFiles/px4_msgs: /root/colcon_ws/src/px4_msgs/msg/BatteryStatus.msg
 CMakeFiles/px4_msgs: /root/colcon_ws/src/px4_msgs/msg/SimpleBatteryStatus.msg
 CMakeFiles/px4_msgs: /root/colcon_ws/src/px4_msgs/msg/CommanderSetState.msg
 CMakeFiles/px4_msgs: /root/colcon_ws/src/px4_msgs/msg/CommanderStatus.msg

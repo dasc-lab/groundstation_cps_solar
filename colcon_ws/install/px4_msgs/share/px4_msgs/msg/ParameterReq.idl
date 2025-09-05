@@ -1,1 +1,21 @@
-/root/colcon_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/ParameterReq.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from px4_msgs/msg/ParameterReq.msg
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module msg {
+    typedef uint8 uint8__16[16];
+    struct ParameterReq {
+      uint64 timestamp;
+
+      uint8__16 param_name;
+
+      @verbatim (language="comment", text=
+        " must be true to set the value")
+      boolean set;
+
+      float value;
+    };
+  };
+};

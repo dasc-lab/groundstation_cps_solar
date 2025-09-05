@@ -1,1 +1,2 @@
-/root/colcon_ws/build/ground_station_launch/ament_cmake_environment_hooks/local_setup.dsv
+source;share/ground_station_launch/environment/ament_prefix_path.sh
+source;share/ground_station_launch/environment/path.sh

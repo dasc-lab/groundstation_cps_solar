@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/battery_status__type_support.cpp.o"
   "CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/commander_set_state__type_support.cpp.o"
   "CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/commander_status__type_support.cpp.o"
   "CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/parameter_req__type_support.cpp.o"
@@ -15,6 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/px4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vehicle_status__type_support.cpp.o"
   "libpx4_msgs__rosidl_typesupport_introspection_cpp.pdb"
   "libpx4_msgs__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/battery_status__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/commander_set_state__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/commander_status__rosidl_typesupport_introspection_cpp.hpp"

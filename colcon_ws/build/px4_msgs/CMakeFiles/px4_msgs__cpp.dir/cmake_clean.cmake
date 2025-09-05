@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/px4_msgs__cpp"
+  "rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp"
   "rosidl_generator_cpp/px4_msgs/msg/commander_set_state.hpp"
   "rosidl_generator_cpp/px4_msgs/msg/commander_status.hpp"
+  "rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__builder.hpp"
+  "rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__struct.hpp"
+  "rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__traits.hpp"
   "rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__builder.hpp"
   "rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__struct.hpp"
   "rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__traits.hpp"

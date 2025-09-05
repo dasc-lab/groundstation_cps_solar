@@ -58,6 +58,26 @@ rosidl_typesupport_cpp/visibility_control.h
 
 /opt/ros/galactic/include/rosidl_typesupport_interface/macros.h
 
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/battery_status__type_support.cpp
+cstddef
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/rosidl_runtime_c/message_type_support_struct.h
+px4_msgs/msg/detail/battery_status__struct.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/px4_msgs/msg/detail/battery_status__struct.hpp
+rosidl_typesupport_cpp/identifier.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/rosidl_typesupport_cpp/identifier.hpp
+rosidl_typesupport_cpp/message_type_support.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/rosidl_typesupport_cpp/message_type_support.hpp
+rosidl_typesupport_c/type_support_map.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_cpp/message_type_support_dispatch.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/rosidl_typesupport_cpp/message_type_support_dispatch.hpp
+rosidl_typesupport_cpp/visibility_control.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/rosidl_typesupport_cpp/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/rosidl_typesupport_interface/macros.h
+
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/commander_set_state__type_support.cpp
 cstddef
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/cstddef
@@ -337,6 +357,22 @@ rosidl_typesupport_cpp/visibility_control.h
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/rosidl_typesupport_cpp/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs/msg/rosidl_typesupport_interface/macros.h
+
+rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__struct.hpp
+rosidl_runtime_cpp/bounded_vector.hpp
+-
+rosidl_runtime_cpp/message_initialization.hpp
+-
+algorithm
+-
+array
+-
+memory
+-
+string
+-
+vector
+-
 
 rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp

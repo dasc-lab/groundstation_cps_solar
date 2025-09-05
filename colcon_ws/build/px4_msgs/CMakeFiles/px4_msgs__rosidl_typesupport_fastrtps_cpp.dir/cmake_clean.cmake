@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o"
   "CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/commander_set_state__type_support.cpp.o"
   "CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/commander_status__type_support.cpp.o"
   "CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/parameter_req__type_support.cpp.o"
@@ -15,8 +16,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/vehicle_status__type_support.cpp.o"
   "libpx4_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
   "libpx4_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/commander_status__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/battery_status__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/commander_set_state__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/commander_status__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/px4_msgs/msg/detail/dds_fastrtps/parameter_req__type_support.cpp"

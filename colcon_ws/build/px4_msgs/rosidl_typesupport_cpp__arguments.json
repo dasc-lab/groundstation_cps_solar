@@ -3,6 +3,7 @@
   "output_dir": "/root/colcon_ws/build/px4_msgs/rosidl_typesupport_cpp/px4_msgs",
   "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
+    "/root/colcon_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/BatteryStatus.idl",
     "/root/colcon_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/SimpleBatteryStatus.idl",
     "/root/colcon_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/CommanderSetState.idl",
     "/root/colcon_ws/build/px4_msgs/rosidl_adapter/px4_msgs:msg/CommanderStatus.idl",
@@ -29,6 +30,7 @@
     "/opt/ros/galactic/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
     "/opt/ros/galactic/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/galactic/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/root/colcon_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/BatteryStatus.idl",
     "/root/colcon_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/SimpleBatteryStatus.idl",
     "/root/colcon_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/CommanderSetState.idl",
     "/root/colcon_ws/build/px4_msgs/rosidl_adapter/px4_msgs/msg/CommanderStatus.idl",

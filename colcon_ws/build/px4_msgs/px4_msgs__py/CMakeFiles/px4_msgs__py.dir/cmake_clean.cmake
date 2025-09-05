@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_introspection_c.c"
   "../rosidl_generator_py/px4_msgs/msg/__init__.py"
+  "../rosidl_generator_py/px4_msgs/msg/_battery_status.py"
+  "../rosidl_generator_py/px4_msgs/msg/_battery_status_s.c"
   "../rosidl_generator_py/px4_msgs/msg/_commander_set_state.py"
   "../rosidl_generator_py/px4_msgs/msg/_commander_set_state_s.c"
   "../rosidl_generator_py/px4_msgs/msg/_commander_status.py"

@@ -1,1 +1,1 @@
-/root/colcon_ws/build/dasc_robot_gui/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dasc_robot_gui
+geometry_msgs;nav_msgs;tf2_geometry_msgs;px4_msgs;rclcpp;rviz_common;rviz_rendering;sensor_msgs;dasc_msgs;libqt5-core;libqt5-gui;libqt5-widgets;ament_lint_auto;ament_lint_common

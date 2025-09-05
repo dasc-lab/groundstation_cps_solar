@@ -432,7 +432,11 @@ CMakeFiles/setpointPublisher.dir/src/setpoint_publisher.cpp.o
  /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__builder.hpp
  /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp
  /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp
+ /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__builder.hpp
+ /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__struct.hpp
+ /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/detail/vehicle_local_position__traits.hpp
  /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/trajectory_setpoint.hpp
+ /root/colcon_ws/install/px4_msgs/include/px4_msgs/msg/vehicle_local_position.hpp
  /root/colcon_ws/src/dasc_ros_common/dasc_ros_utils/include/dasc_ros_utils/conversions.hpp
  /root/colcon_ws/src/dasc_ros_common/dasc_ros_utils/include/dasc_ros_utils/setpoint_publisher.hpp
  /root/colcon_ws/src/dasc_ros_common/dasc_ros_utils/include/dasc_ros_utils/tf2_geometry_msgs.hpp

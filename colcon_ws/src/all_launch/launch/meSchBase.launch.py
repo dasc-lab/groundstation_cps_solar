@@ -23,7 +23,7 @@ def generate_launch_description():
     rover_pub_node = Node(
         name="rover_setpoint_pub_node",
         executable="meSch_roversp_node",
-        package="meSch_base"
+        package="meSch_base",
         )
 
     nodes = [

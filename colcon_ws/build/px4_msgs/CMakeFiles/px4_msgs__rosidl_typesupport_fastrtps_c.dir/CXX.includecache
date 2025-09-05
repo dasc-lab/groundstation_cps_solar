@@ -110,6 +110,30 @@ fastcdr/Cdr.h
 
 /opt/ros/galactic/include/rosidl_typesupport_interface/macros.h
 
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/battery_status__type_support_c.cpp
+px4_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/px4_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+cassert
+-
+limits
+-
+string
+-
+rosidl_typesupport_fastrtps_c/identifier.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
+rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+px4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/px4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+px4_msgs/msg/detail/battery_status__struct.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/px4_msgs/msg/detail/battery_status__struct.h
+px4_msgs/msg/detail/battery_status__functions.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/px4_msgs/msg/detail/battery_status__functions.h
+fastcdr/Cdr.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/fastcdr/Cdr.h
+
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/commander_set_state__type_support_c.cpp
 px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_fastrtps_c.h
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_fastrtps_c.h
@@ -446,6 +470,26 @@ px4_msgs/msg/detail/vehicle_status__functions.h
 fastcdr/Cdr.h
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/fastcdr/Cdr.h
 
+rosidl_generator_c/px4_msgs/msg/detail/battery_status__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/px4_msgs/msg/detail/rosidl_runtime_c/visibility_control.h
+px4_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/px4_msgs/msg/detail/px4_msgs/msg/rosidl_generator_c__visibility_control.h
+px4_msgs/msg/detail/battery_status__struct.h
+rosidl_generator_c/px4_msgs/msg/detail/px4_msgs/msg/detail/battery_status__struct.h
+
+rosidl_generator_c/px4_msgs/msg/detail/battery_status__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
 rosidl_generator_c/px4_msgs/msg/detail/commander_set_state__functions.h
 stdbool.h
 -
@@ -727,6 +771,16 @@ stdint.h
 -
 
 rosidl_generator_c/px4_msgs/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+stddef.h
+-
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_interface/macros.h
+rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/rosidl_typesupport_interface/macros.h
+px4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/px4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 
 rosidl_typesupport_fastrtps_c/px4_msgs/msg/detail/commander_set_state__rosidl_typesupport_fastrtps_c.h
 stddef.h

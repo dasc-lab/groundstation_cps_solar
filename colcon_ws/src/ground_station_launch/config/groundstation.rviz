@@ -34,7 +34,7 @@ Panels:
     SyncSource: ""
   - Class: dasc_robot_gui/Teleop
     Name: Teleop
-    Topic: px4_1
+    Topic: px4_200
 Visualization Manager:
   Class: ""
   Displays:
@@ -319,7 +319,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /px4_1/viz/trajectory_setpoint
+        Value: /px4_200/viz/trajectory_setpoint
       Value: true
     - Alpha: 0.699999988079071
       Class: rviz_default_plugins/Map

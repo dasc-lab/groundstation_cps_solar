@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/colcon_ws/build/dasc_robot_gui/libdasc_robot_gui.so" "TARGETS" "dasc_robot_gui" "ARCHIVE_DESTINATION" "lib/dasc_robot_gui" "LIBRARY_DESTINATION" "lib/dasc_robot_gui" "RUNTIME_DESTINATION" "lib/dasc_robot_gui")

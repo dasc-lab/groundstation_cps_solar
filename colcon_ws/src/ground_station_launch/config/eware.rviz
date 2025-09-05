@@ -34,7 +34,7 @@ Panels:
     SyncSource: ""
   - Class: dasc_robot_gui/Eware
     Name: Eware
-    Topic: px4_101
+    Topic: px4_200
 Visualization Manager:
   Class: ""
   Displays:
@@ -61,7 +61,7 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: false
-        vicon/px4_100/px4_100:
+        vicon/px4_200/px4_200:
           Value: true
         vicon/world:
           Value: true
@@ -74,7 +74,7 @@ Visualization Manager:
       Show Names: false
       Tree:
         vicon/world:
-          vicon/px4_100/px4_100:
+          vicon/px4_200/px4_200:
             {}
           vicon/world/NED:
             {}
@@ -237,7 +237,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /px4_100/viz/trajectory_setpoint
+        Value: /px4_200/viz/trajectory_setpoint
       Value: true
     - Alpha: 1
       Axes Length: 1
@@ -321,7 +321,7 @@ Visualization Manager:
       Name: Current View
       Near Clip Distance: 0.009999999776482582
       Pitch: 0.4109934866428375
-      Target Frame: vicon/px4_1/px4_1
+      Target Frame: vicon/px4_200/px4_200
       Value: ThirdPersonFollower (rviz_default_plugins)
       Yaw: 1.052316427230835
     Saved: ~

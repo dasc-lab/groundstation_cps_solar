@@ -57,73 +57,90 @@ include CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: /opt/ros/galactic/lib/rosidl_typesupport_c/rosidl_typesupport_c
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_c/__init__.py
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_c/resource/action__type_support.c.em
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/SimpleBatteryStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/CommanderSetState.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/CommanderStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/ParameterReq.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/ParameterRes.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorCombined.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorGps.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/TimesyncStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/TrajectorySetpoint.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleCommand.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleControlMode.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleLocalPosition.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleOdometry.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleStatus.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
-rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: /opt/ros/galactic/lib/rosidl_typesupport_c/rosidl_typesupport_c
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_c/__init__.py
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_c/resource/action__type_support.c.em
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: /opt/ros/galactic/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/BatteryStatus.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/SimpleBatteryStatus.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/CommanderSetState.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/CommanderStatus.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/ParameterReq.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/ParameterRes.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorCombined.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/SensorGps.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/TimesyncStatus.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/TrajectorySetpoint.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleCommand.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleControlMode.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleLocalPosition.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleOdometry.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: rosidl_adapter/px4_msgs/msg/VehicleStatus.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/galactic/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
-rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+
+rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp
 
-rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
+rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp > CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.i
+
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.s
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp.i: cmake_force
@@ -136,7 +153,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp.i: cmake_force
@@ -149,7 +166,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp.i: cmake_force
@@ -162,7 +179,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_req__type_support.cpp.i: cmake_force
@@ -175,7 +192,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/parameter_res__type_support.cpp.i: cmake_force
@@ -188,7 +205,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_combined__type_support.cpp.i: cmake_force
@@ -201,7 +218,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/sensor_gps__type_support.cpp.i: cmake_force
@@ -214,7 +231,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/timesync_status__type_support.cpp.i: cmake_force
@@ -227,7 +244,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/trajectory_setpoint__type_support.cpp.i: cmake_force
@@ -240,7 +257,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_command__type_support.cpp.i: cmake_force
@@ -253,7 +270,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_control_mode__type_support.cpp.i: cmake_force
@@ -266,7 +283,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_local_position__type_support.cpp.i: cmake_force
@@ -279,7 +296,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_odometry__type_support.cpp.i: cmake_force
@@ -292,7 +309,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o: rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.o -c /root/colcon_ws/build/px4_msgs/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp
 
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/vehicle_status__type_support.cpp.i: cmake_force
@@ -305,6 +322,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/
 
 # Object files for target px4_msgs__rosidl_typesupport_c
 px4_msgs__rosidl_typesupport_c_OBJECTS = \
+"CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp.o" \
 "CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp.o" \
@@ -323,6 +341,7 @@ px4_msgs__rosidl_typesupport_c_OBJECTS = \
 # External object files for target px4_msgs__rosidl_typesupport_c
 px4_msgs__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 
+libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp.o
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp.o
@@ -351,7 +370,7 @@ libpx4_msgs__rosidl_typesupport_c.so: /opt/ros/galactic/lib/librosidl_runtime_c.
 libpx4_msgs__rosidl_typesupport_c.so: /opt/ros/galactic/lib/librcpputils.so
 libpx4_msgs__rosidl_typesupport_c.so: /opt/ros/galactic/lib/librcutils.so
 libpx4_msgs__rosidl_typesupport_c.so: CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library libpx4_msgs__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library libpx4_msgs__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -363,6 +382,7 @@ CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/clean
 
+CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/battery_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/simple_battery_status__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/commander_set_state__type_support.cpp
 CMakeFiles/px4_msgs__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/px4_msgs/msg/commander_status__type_support.cpp

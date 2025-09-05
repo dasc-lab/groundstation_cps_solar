@@ -8,6 +8,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_c.c" "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_introspection_c.c" "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/__init__.py" "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_battery_status.py" "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_battery_status_s.c" "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_commander_set_state.py" "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_commander_set_state_s.c" "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/msg/_commander_status.py" "/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/_px4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"

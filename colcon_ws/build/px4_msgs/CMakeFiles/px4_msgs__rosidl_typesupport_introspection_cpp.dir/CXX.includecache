@@ -74,6 +74,34 @@ rosidl_typesupport_introspection_cpp/visibility_control.h
 
 /opt/ros/galactic/include/rosidl_typesupport_introspection_cpp/visibility_control.h
 
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/battery_status__type_support.cpp
+array
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/array
+cstddef
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/cstddef
+string
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/string
+vector
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/vector
+rosidl_runtime_c/message_type_support_struct.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_cpp/message_type_support.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rosidl_typesupport_cpp/message_type_support.hpp
+rosidl_typesupport_interface/macros.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rosidl_typesupport_interface/macros.h
+px4_msgs/msg/detail/battery_status__struct.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/px4_msgs/msg/detail/battery_status__struct.hpp
+rosidl_typesupport_introspection_cpp/field_types.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rosidl_typesupport_introspection_cpp/field_types.hpp
+rosidl_typesupport_introspection_cpp/identifier.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rosidl_typesupport_introspection_cpp/identifier.hpp
+rosidl_typesupport_introspection_cpp/message_introspection.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rosidl_typesupport_introspection_cpp/message_introspection.hpp
+rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
+rosidl_typesupport_introspection_cpp/visibility_control.h
+/root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rosidl_typesupport_introspection_cpp/visibility_control.h
+
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/commander_set_state__type_support.cpp
 array
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/array
@@ -465,6 +493,22 @@ rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp
 rosidl_typesupport_introspection_cpp/visibility_control.h
 /root/colcon_ws/build/px4_msgs/rosidl_typesupport_introspection_cpp/px4_msgs/msg/detail/rosidl_typesupport_introspection_cpp/visibility_control.h
+
+rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__struct.hpp
+rosidl_runtime_cpp/bounded_vector.hpp
+-
+rosidl_runtime_cpp/message_initialization.hpp
+-
+algorithm
+-
+array
+-
+memory
+-
+string
+-
+vector
+-
 
 rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__struct.hpp
 rosidl_runtime_cpp/bounded_vector.hpp

@@ -20,9 +20,9 @@ import math
 
 def generate_launch_description():
     
-    robot_01_name = "px4_100"
-    robot_02_name = "px4_101"
-    robot_03_name = "px4_102"
+    robot_01_name = "px4_200"
+    # robot_02_name = "px4_101"
+    # robot_03_name = "px4_102"
 
     # launch rviz with the teleop panel configuration
     config0_name = "meSch.rviz"
@@ -36,12 +36,12 @@ def generate_launch_description():
     global_frame = LaunchConfiguration('global_frame', default='vicon/world')
 
     # Rviz node
-    rviz0 = Node(
-        package='rviz2',
-        executable='rviz2',
-        arguments=['-d', config0_path,       # set the config
-                   '-f', global_frame],     # overwrite the global frame
-        output='screen')
+    # rviz0 = Node(
+    #     package='rviz2',
+    #     executable='rviz2',
+    #     arguments=['-d', config0_path,       # set the config
+    #                '-f', global_frame],     # overwrite the global frame
+    #     output='screen')
     
     rviz1 = Node(
         package='rviz2',
@@ -120,8 +120,8 @@ def generate_launch_description():
     #         )
 
     return LaunchDescription([
-        rviz0,
-        # rviz1,
+        #rviz0,
+        rviz1,
         # rviz2,
         # vicon,
         # vicon_px4_bridge_node,

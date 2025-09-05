@@ -47,6 +47,12 @@ rosidl_runtime_c/service_type_support_struct.h
 /root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/rosidl_runtime_c/service_type_support_struct.h
 rosidl_runtime_c/action_type_support_struct.h
 /root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/rosidl_runtime_c/action_type_support_struct.h
+px4_msgs/msg/detail/battery_status__type_support.h
+/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/px4_msgs/msg/detail/battery_status__type_support.h
+px4_msgs/msg/detail/battery_status__struct.h
+/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/px4_msgs/msg/detail/battery_status__struct.h
+px4_msgs/msg/detail/battery_status__functions.h
+/root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/px4_msgs/msg/detail/battery_status__functions.h
 px4_msgs/msg/detail/simple_battery_status__type_support.h
 /root/colcon_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/px4_msgs/msg/detail/simple_battery_status__type_support.h
 px4_msgs/msg/detail/simple_battery_status__struct.h
@@ -633,6 +639,34 @@ cpython/unicodeobject.h
 /usr/include/python3.8/warnings.h
 
 /usr/include/python3.8/weakrefobject.h
+
+rosidl_generator_c/px4_msgs/msg/detail/battery_status__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/px4_msgs/msg/detail/rosidl_runtime_c/visibility_control.h
+px4_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/px4_msgs/msg/detail/px4_msgs/msg/rosidl_generator_c__visibility_control.h
+px4_msgs/msg/detail/battery_status__struct.h
+rosidl_generator_c/px4_msgs/msg/detail/px4_msgs/msg/detail/battery_status__struct.h
+
+rosidl_generator_c/px4_msgs/msg/detail/battery_status__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/px4_msgs/msg/detail/battery_status__type_support.h
+rosidl_typesupport_interface/macros.h
+rosidl_generator_c/px4_msgs/msg/detail/rosidl_typesupport_interface/macros.h
+px4_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/px4_msgs/msg/detail/px4_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_generator_c/px4_msgs/msg/detail/rosidl_runtime_c/message_type_support_struct.h
 
 rosidl_generator_c/px4_msgs/msg/detail/commander_set_state__functions.h
 stdbool.h

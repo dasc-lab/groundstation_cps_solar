@@ -28,7 +28,7 @@ Panels:
     SyncSource: ""
   - Class: dasc_robot_gui/Teleop
     Name: Teleop
-    Topic: /px4_1
+    Topic: /px4_200
 Visualization Manager:
   Class: ""
   Displays:
@@ -55,7 +55,7 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        vicon/px4_1/px4_1:
+        vicon/px4_200/px4_200:
           Value: true
         vicon/world:
           Value: true
@@ -66,7 +66,7 @@ Visualization Manager:
       Show Names: false
       Tree:
         vicon/world:
-          vicon/px4_1/px4_1:
+          vicon/px4_200/px4_200:
             {}
       Update Interval: 0
       Value: true

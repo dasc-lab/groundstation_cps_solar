@@ -53,6 +53,10 @@ CMAKE_BINARY_DIR = /root/colcon_ws/build/px4_msgs
 # Include the progress variables for this target.
 include CMakeFiles/px4_msgs__cpp.dir/progress.make
 
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__builder.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__struct.hpp
+CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__traits.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__builder.hpp
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__struct.hpp
@@ -111,206 +115,223 @@ CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_statu
 CMakeFiles/px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_status__traits.hpp
 
 
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/SimpleBatteryStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/CommanderSetState.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/CommanderStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/ParameterReq.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/ParameterRes.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/SensorCombined.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/SensorGps.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/TimesyncStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/TrajectorySetpoint.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/VehicleCommand.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/VehicleControlMode.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/VehicleLocalPosition.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/VehicleOdometry.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_adapter/px4_msgs/msg/VehicleStatus.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/BatteryStatus.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/SimpleBatteryStatus.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/CommanderSetState.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/CommanderStatus.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/ParameterReq.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/ParameterRes.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/SensorCombined.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/SensorGps.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/TimesyncStatus.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/TrajectorySetpoint.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/VehicleCommand.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/VehicleControlMode.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/VehicleLocalPosition.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/VehicleOdometry.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: rosidl_adapter/px4_msgs/msg/VehicleStatus.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp: /opt/ros/galactic/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/colcon_ws/build/px4_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/galactic/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/colcon_ws/build/px4_msgs/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__builder.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__struct.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__traits.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+
+rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/commander_set_state.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/commander_set_state.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/commander_set_state.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/commander_set_state__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/commander_status.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/commander_status.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/commander_status.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/commander_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/commander_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/commander_status__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/commander_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/commander_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/commander_status__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/commander_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/commander_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/commander_status__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/parameter_req.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/parameter_req.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/parameter_req.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/parameter_req__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/parameter_req__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/parameter_req__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/parameter_req__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/parameter_req__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/parameter_req__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/parameter_req__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/parameter_req__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/parameter_req__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/parameter_res.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/parameter_res.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/parameter_res.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/parameter_res__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/parameter_res__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/parameter_res__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/parameter_res__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/parameter_res__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/parameter_res__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/parameter_res__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/parameter_res__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/parameter_res__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/sensor_combined.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/sensor_combined.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/sensor_combined.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_combined__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/sensor_combined__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_combined__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_combined__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/sensor_combined__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_combined__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_combined__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/sensor_combined__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_combined__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/sensor_gps.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/sensor_gps.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/sensor_gps.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/sensor_gps__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/timesync_status.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/timesync_status.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/timesync_status.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/timesync_status__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/trajectory_setpoint.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/trajectory_setpoint__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/vehicle_command.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/vehicle_command.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/vehicle_command.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_command__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_command__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_command__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_command__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_command__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_command__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_command__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_command__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_command__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/vehicle_control_mode.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/vehicle_control_mode.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/vehicle_control_mode.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_control_mode__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_control_mode__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_control_mode__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_control_mode__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_control_mode__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_control_mode__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_control_mode__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_control_mode__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_control_mode__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/vehicle_local_position.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/vehicle_local_position.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/vehicle_local_position.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_local_position__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_local_position__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_local_position__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_local_position__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_local_position__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_local_position__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_local_position__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_local_position__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_local_position__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/vehicle_odometry.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/vehicle_odometry.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/vehicle_odometry.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_odometry__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_odometry__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_odometry__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_odometry__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_odometry__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_odometry__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_odometry__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_odometry__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_odometry__traits.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/vehicle_status.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/vehicle_status.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/vehicle_status.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_status__builder.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_status__builder.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_status__struct.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_status__struct.hpp
 
-rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
+rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_status__traits.hpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/px4_msgs/msg/detail/vehicle_status__traits.hpp
 
 px4_msgs__cpp: CMakeFiles/px4_msgs__cpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/battery_status.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__builder.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__struct.hpp
+px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/battery_status__traits.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/simple_battery_status.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__builder.hpp
 px4_msgs__cpp: rosidl_generator_cpp/px4_msgs/msg/detail/simple_battery_status__struct.hpp

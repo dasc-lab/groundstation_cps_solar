@@ -95,6 +95,9 @@ CMakeFiles/px4_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_p
  /usr/include/python3.8/unicodeobject.h
  /usr/include/python3.8/warnings.h
  /usr/include/python3.8/weakrefobject.h
+ rosidl_generator_c/px4_msgs/msg/detail/battery_status__functions.h
+ rosidl_generator_c/px4_msgs/msg/detail/battery_status__struct.h
+ rosidl_generator_c/px4_msgs/msg/detail/battery_status__type_support.h
  rosidl_generator_c/px4_msgs/msg/detail/commander_set_state__functions.h
  rosidl_generator_c/px4_msgs/msg/detail/commander_set_state__struct.h
  rosidl_generator_c/px4_msgs/msg/detail/commander_set_state__type_support.h
